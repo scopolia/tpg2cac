@@ -36,12 +36,12 @@ btnSlider.forEach(btn => {
         if(btn.id =="btn3"){
             contSlider.style.backgroundImage='url('+imagenes[2]+')';
             BtnSlider3.style.color="black"
-        }else{BtnSlider1.style.color="red"}
+        }else{BtnSlider2.style.color="red"}
 
         if(btn.id =="btn4"){
             contSlider.style.backgroundImage='url('+imagenes[3]+')';
             BtnSlider4.style.color="black"
-        }else{BtnSlider4.style.color="red"}
+        }else{BtnSlider3.style.color="red"}
         
     })
 });
