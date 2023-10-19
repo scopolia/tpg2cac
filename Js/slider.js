@@ -27,17 +27,17 @@ btnSlider.forEach(btn => {
             BtnSlider1.style.color="black"
         }else{BtnSlider1.style.color="red"}
 
-        if(btn.id =="btn2"){
+        else if(btn.id =="btn2"){
             contSlider.style.backgroundImage='url('+imagenes[1]+')';
             BtnSlider2.style.color="black"
         }else{BtnSlider2.style.color="red"}
 
-        if(btn.id =="btn3"){
+        else if(btn.id =="btn3"){
             contSlider.style.backgroundImage='url('+imagenes[2]+')';
             BtnSlider3.style.color="black"
         }else{BtnSlider3.style.color="red"}
 
-        if(btn.id =="btn4"){
+        else if(btn.id =="btn4"){
             contSlider.style.backgroundImage='url('+imagenes[3]+')';
             BtnSlider4.style.color="black"
         }else{BtnSlider4.style.color="red"}
@@ -50,6 +50,6 @@ setInterval(()=>{
         if (posicion==3)posicion=0
         else {posicion++}
         contSlider.style.backgroundImage='url('+imagenes[posicion]+')';
-},9000);
+},3000);
 
 
