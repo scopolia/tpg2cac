@@ -21,6 +21,7 @@ contSlider.style.backgroundImage=imagenes[0];
 btnSlider.forEach(btn => {
     
     btn.addEventListener("click", (e)=>{
+        preventDefault();
         console.log(btn.id)
         if(btn.id =="btn1"){            
             contSlider.style.backgroundImage='url('+imagenes[0]+')';
