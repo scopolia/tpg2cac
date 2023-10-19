@@ -26,17 +26,17 @@ btnSlider.forEach(btn => {
         if(btn.id =="btn1"){            
             contSlider.style.backgroundImage='url('+imagenes[0]+')';
             BtnSlider1.style.color="black"
-        }
+        }else{BtnSlider1.style.color="red"}
 
         if(btn.id =="btn2"){
             contSlider.style.backgroundImage='url('+imagenes[1]+')';
             BtnSlider2.style.color="black"
-        }
+        }else{BtnSlider1.style.color="red"}
 
         if(btn.id =="btn3"){
             contSlider.style.backgroundImage='url('+imagenes[2]+')';
             BtnSlider3.style.color="black"
-        }
+        }else{BtnSlider1.style.color="red"}
 
         if(btn.id =="btn4"){
             contSlider.style.backgroundImage='url('+imagenes[3]+')';
