@@ -5,7 +5,7 @@ var BtnSlider2 = document.getElementById("btn2");
 var BtnSlider3 = document.getElementById("btn3");
 var BtnSlider4 = document.getElementById("btn4");
 
-var imagenes=["img/slider1.jpg","../img/slider2.jpg","../img/slider3.webp", "../img/slider4.jpg"]
+var imagenes=["img/slider1.jpg","/img/slider2.jpg","/img/slider3.webp", "/img/slider4.jpg"]
 var btnSlider=[BtnSlider1,BtnSlider2,BtnSlider3,BtnSlider4]
 const url= imagenes
 
